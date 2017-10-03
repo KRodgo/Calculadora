@@ -7,7 +7,7 @@ install:
 
 before_script:
   - autopep8 -ir *
-  - flake8 --max-complexity=15 --exclude=*.txt,*.md *
+  - flake8 --max-complexity=8 --exclude=*.txt,*.md,*.pyc,*.zip *
 
 script:
   - python testCalduladora.py
