@@ -1,13 +1,10 @@
+--- 
+before_script: 
+  - "autopep8 -ir *"
+  - "flake8 --max-complexity=8 --exclude=*.txt,*.md,*.pyc,*.zip *"
+install: "pip install -r requerimientos.txt"
 language: python
-python:
+python: 
   - "2.7"
-
-install:
-  "pip install -r requerimientos.txt"
-
-before_script:
-  - autopep8 -ir *
-  - flake8 --max-complexity=8 --exclude=*.txt,*.md,*.pyc,*.zip *
-
-script:
-  - python testCalduladora.py
+script: 
+  - "python testCalduladora.py"
