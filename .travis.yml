@@ -8,4 +8,4 @@ python:
   - "2.7"
 script: 
   - "python testCalculadora.py"
-  - "coverage run --branch testEdad.py"
+  - "coverage run --branch testCalculadora.py"
