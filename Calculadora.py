@@ -1,5 +1,5 @@
 #implementando CI con Travis
-#Scott ITTTTTTTTTTTTTTTTS LIIIIIIIIIIIIIIT
+#Scott ITTTTTTTTTTTTTTTTS LIIIIIIIIIIIIIITT
 
 class Calculadora():
 
